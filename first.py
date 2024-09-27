@@ -14,7 +14,9 @@ root.geometry('500x350')
 # Create a Function for the Button
 
 # Create a Label
-my_label = tb.Label(Text="Hello Vihan!", font=("Poppins", 28), bootstyle ="default")
+my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
+                    bootstyle="warning")
+my_label.pack(pady=50)
 
 # Create a button
 
