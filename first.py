@@ -16,7 +16,7 @@ counter = 0
 def changer():
     counter += 1
     if counter % 2 == 0:
-        my_label.config(menu=)
+        my_label.config(text=)
 
 # Create a Label
 my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
