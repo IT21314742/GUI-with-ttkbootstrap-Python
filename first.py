@@ -13,7 +13,7 @@ root.geometry('500x350')
 
 # Create a Function for the Button
 counter = 0
-def fname(arg):
+def changer(arg):
     pass
 
 # Create a Label
