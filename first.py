@@ -12,6 +12,7 @@ root.title("TTK Bootstrap!")
 root.geometry('500x350')
 
 # Create a Function for the Button
+counter = 
 
 # Create a Label
 my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
