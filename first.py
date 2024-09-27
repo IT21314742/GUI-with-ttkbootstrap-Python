@@ -19,7 +19,7 @@ my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
 my_label.pack(pady=50)
 
 # Create a button
-my_button = tb.button(Text="Click Me!")
+my_button = tb.button(Text="Click Me!", bootstyle)
 
 
 
