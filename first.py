@@ -14,6 +14,7 @@ root.geometry('500x350')
 # Create a Function for the Button
 counter = 0
 def changer():
+    global counter
     counter += 1
     if counter % 2 == 0:
         my_label.config(text="Hello Vihan!")
@@ -26,7 +27,7 @@ my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
 my_label.pack(pady=50)
 
 # Create a button
-my_button = tb.Button(root, text="Click Me!", bootstyle="success, outline" command=changer)
+my_button = tb.Button(root, text="Click Me!", bootstyle="success, outline", command=changer)
 my_button.pack(pady=20)
 
 
