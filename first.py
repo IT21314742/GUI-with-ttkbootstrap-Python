@@ -14,7 +14,7 @@ root.geometry('500x350')
 # Create a Function for the Button
 
 # Create a Label
-my_label = tb.Label(Text="")
+my_label = tb.Label(Text="Hello Vihan!")
 
 # Create a button
 
