@@ -14,6 +14,7 @@ root.geometry('500x350')
 # Create a Function for the Button
 counter = 0
 
+
 # Create a Label
 my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
                     bootstyle="warning, ")
