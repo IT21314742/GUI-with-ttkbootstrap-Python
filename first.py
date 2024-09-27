@@ -20,7 +20,7 @@ my_label.pack(pady=50)
 
 # Create a button
 my_button = tb.button(Text="Click Me!", bootstyle="primary")
-my_button
+my_button.pack
 
 
 
