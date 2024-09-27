@@ -1,10 +1,11 @@
 from tkinter import *
 from ttkbootstrap.constants import *
+import ttkbootstrap as tb
 
 
 
-
-root = Tk()
+root tb.window(themename="cyborg")
+#root = Tk()
 root.title("TTK Bootstrap!")
 root.iconbitmap('images/codemy.ico')
 root.geometry('500x350')
