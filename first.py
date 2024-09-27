@@ -4,10 +4,11 @@ import ttkbootstrap as tb
 
 
 
-root tb.window(themename="cyborg")
+root = tb.Window(themename="superhero")
+
 #root = Tk()
 root.title("TTK Bootstrap!")
-root.iconbitmap('images/codemy.ico')
+#root.iconbitmap('images/codemy.ico')
 root.geometry('500x350')
 
 # Create a Function for the Button
