@@ -15,7 +15,7 @@ root.geometry('500x350')
 counter = 0
 def changer():
     counter += 1
-    
+    if
 
 # Create a Label
 my_label = tb.Label(root, text="Hello Vihan!", font=("Poppins", 35),
