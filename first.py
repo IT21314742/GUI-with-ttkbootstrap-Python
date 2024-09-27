@@ -7,4 +7,4 @@ from ttkbootstrap.constants import *
 root = Tk()
 root.title("TTK Bootstrap!")
 root.iconbitmap('images/codemy.ico')
-root.geometry()
+root.geometry('500x350')
